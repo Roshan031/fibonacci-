@@ -7,16 +7,16 @@ n1, n2 = 0, 1
 count = 0
 
 # To check whether the number of terms is valid
-if nterms <= 0:
+if n <= 0:
    print("Please enter a positive integer")
 # if there is only one term, return n1
-elif nterms == 1:
+elif n == 1:
    print("Fibonacci sequence upto",nterms,":")
    print(n1)
 # generating  fibonacci sequence
 else:
    print("Fibonacci sequence:")
-   while count < nterms:
+   while count < n:
        print(n1)
        nth = n1 + n2
        # value updation
